@@ -1,4 +1,5 @@
 import json
+import os
 
 header = r"""\documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -97,6 +98,7 @@ if __name__ == '__main__':
         output += section_string
     ## Output
     output += footer
+    os.makedirs('working_directory', exist_ok=True)
     with open('working_directory/resume.tex', 'w') as f:
         f.write(output)
 
