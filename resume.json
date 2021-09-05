@@ -28,6 +28,54 @@
                         "Using Github and Lark to set goals and collaborate with team members", 
                         "https://apps.apple.com/tt/app/cocreate-draw-together/id1548911886?ign-mpt=uo%3D2"
                     ]
+                },
+                {
+                    "title": "Covid-19 abnormalities detection on chest radiographs",
+                    "description": "July 2021 - August 2021", 
+                    "bullets": [
+                        "Build a model to detect abnormal area and determine if the patient has Covid-19",
+                        "Preprocess data with pandas, visualize the radiographs with matplotlib and pydicom, performing EDA",
+                        "Train a Cascade R-CNN for bounding box regression with mmdetection",
+                        "Train a EfficientNet for classification with keras"
+                    ]
+                }, 
+                {
+                    "title": "ItemMemo",
+                    "description": "Developer (Sep 2020 - Oct 2020)",
+                    "bullets": [
+                        "An iOS app that helps users stop losing things",
+                        "Technology stack: WidgetKit, WatchKit and SwiftUI",
+                        "Application of Growth Hacking: cooperate with KOLs on Social Media to achieve fast growth of downloads; campaigns on Facebook Ads to attract users from United States",
+                        "Got a downloads of 11k around the world",
+                        "https://apps.apple.com/cn/app/id1531614603"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "INTERNSHIP EXPERIENCE",
+            "items": [ 
+                {
+                    "title": "Supersymmetry",
+                    "description": "iOS Developer (Jan 2021 - May 2021)",
+                    "bullets": [
+                        "Participate in developing a social media app: Project Z",
+                        "Technology Stack: Swift, RxSwift, Starscream, Moya",
+                        "Write reusable UI components with SnapKit, Use of Moya to abstract the api call for understandable code",
+                        "Discuss with colleagues from backends for implementation of business logic which is efficient, easier to implement and supports backward compatibility"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SKILLS AND OTHERS",
+            "items": [
+                {
+                    "bullets": [
+                        "Bilingual in Chinese and English",
+                        "Programming languages: Swift, Python, Java, C++, Javascript, SQL, HTML/CSS",
+                        "Contribution to Tensorflow, Keras, and mmdetection on Github"
+                    ]
                 }
             ]
         }

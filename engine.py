@@ -91,7 +91,8 @@ if __name__ == '__main__':
             for bullet in bullets:
                 bullets_string += r"\item " + bullet + "\n"
             item_string = ""
-            item_string += item_title.format(subtitle)
+            if subtitle is not None:
+                item_string += item_title.format(subtitle)
             if description is not None:
                 item_string += item_description.format(description)
             item_string += item_bullets.format(bullets_string)
