@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 
 header = r"""\documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -99,8 +100,11 @@ if __name__ == '__main__':
     ## Output
     output += footer
     os.makedirs('working_directory', exist_ok=True)
-    with open('working_directory/resume.tex', 'w') as f:
+    with open('resume.tex', 'w') as f:
         f.write(output)
+    os.system("pdflatex -output-directory working_directory resume.tex")
+    shutil.copy("working_directory/resume.pdf", "resume.pdf")
+
 
 
 
