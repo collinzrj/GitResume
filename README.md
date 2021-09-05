@@ -5,9 +5,11 @@ Now you can use git to version control your resumes. Keep track of your resume b
 
 ## How to use it
 - Fork the repository
+- Make sure `pdflatex` is installed on your device
 - Edit the `resume.json`, you can use my example as a template
-- run ```git config core.hooksPath .githooks``` in your terminal, this enables a script that generates the `.tex` and `.pdf` file each time you commit, you only need to run this once
+- run ```git config core.hooksPath .githooks``` in your terminal, this enables a script that generates the `resume.tex` and `resume.pdf` file each time you commit, you only need to run this once
 - commit the edit to your `resume.json`
 
 ## Tips
 - If you are familiar with git, you can take advantage of its ability of version control, e.g. create a new branch for a resume for a different company/industry, and you can keep track of the changes you made to your resume taking advantage of Github's file comparing function
+- You can share the link of the `resume.pdf` with others, and it will be updated each time you commit!
