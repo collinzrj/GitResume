@@ -17,7 +17,7 @@
 
 \begin{center}
 {\huge \textbf{Collin Zhang}}\par
-rz1477@nyu.edu\par+86 13395122259
+rz1477@nyu.edu\par(917) 621-1855
 \end{center}
 
 \noindent
@@ -26,8 +26,6 @@ rz1477@nyu.edu\par+86 13395122259
 {\textbf {New York University}}\newline
 \emph {B.S. Computer Science; B.S., Business}.\newline
 {Sep 2019 - Jun 2023, New York}\newline
-\newline{\textbf {Nanjing Foreign Language School}}\newline
-{Sep 2016 - Jun 2019, Nanjing}\newline
 \newline
 \noindent
 {\textbf{PROJECT EXPERIENCE}}\newline
@@ -35,9 +33,11 @@ rz1477@nyu.edu\par+86 13395122259
 \emph{Team Leader (Oct 2019 - June 2021)}
 \begin{itemize}[leftmargin=*,topsep=0pt]
 \item An iOS app integrating real-time collaboration with hand-writing drawing board based on Apple Pencil
-\item Design of data structure and search algorithm to realize high performance write, read, search, and update (includes pen, eraser and lasso) function, and algorithm to improve performance of Apple Pencil writing
-\item Technology stack: Swift, SQLite, MVC Architecture, Socket.IO, Flask, Gunicorn, Nginx
-\item Using Github and Lark to set goals and collaborate with team members
+\item Use of Flask and Socket.IO with python to build a backend that supports real-time collaboration of drawing
+\item On the frontend, design an algorithm with Swift that converts the points produced by users(location and force) to segments of bezier curve that produce a smooth hand-writing curve
+\item To achieve lasso on a drawing of thousands of curves, design a map that divides the drawing to 10*10 sqaures, indexing segments of curves to each sqaure, create an algorithm that determines squares covered by an arbitrary self-intersecting polygon, and an algorithm using ray casting algorithm to determine whether a segment is in it, achieve 100 times speed up
+\item Abstracing a drawing module FastDraw for modularity, providing a DrawBoardView for drawing, delegation is used to signal operation like drawing, erasing and lasso, so operation can be sent to server for collaboration
+\item 9.59k downloads on App Store, 9400+ boards created by users
 \item \url{https://apps.apple.com/tt/app/cocreate-draw-together/id1548911886?ign-mpt=uo%3D2}
 
 \end{itemize} \ \\ {\textbf{Covid-19 abnormalities detection on chest radiographs}}\newline
@@ -47,15 +47,6 @@ rz1477@nyu.edu\par+86 13395122259
 \item Preprocess data with pandas, visualize the radiographs with matplotlib and pydicom, performing EDA
 \item Train a Cascade R-CNN for bounding box regression with mmdetection
 \item Train a EfficientNet for classification with keras
-
-\end{itemize} \ \\ {\textbf{ItemMemo}}\newline
-\emph{Developer (Sep 2020 - Oct 2020)}
-\begin{itemize}[leftmargin=*,topsep=0pt]
-\item An iOS app that helps users stop losing things
-\item Technology stack: WidgetKit, WatchKit and SwiftUI
-\item Application of Growth Hacking: cooperate with KOLs on Social Media to achieve fast growth of downloads; campaigns on Facebook Ads to attract users from United States
-\item Got a downloads of 11k around the world
-\item \url{https://apps.apple.com/cn/app/id1531614603}
 
 \end{itemize} \ \\ 
 \noindent
@@ -72,8 +63,8 @@ rz1477@nyu.edu\par+86 13395122259
 \noindent
 {\textbf{SKILLS AND OTHERS}}\newline
 \rule{\textwidth}{1pt}\begin{itemize}[leftmargin=*,topsep=0pt]
-\item Bilingual in Chinese and English
-\item Programming languages: Swift, Python, Java, C++, Javascript, SQL, HTML/CSS
+\item Courses: Data Structures, Computer System Organization, Intro to Algorithms, Discrete Math
+\item Swift, Python, Java, C++, Javascript, SQL, HTML/CSS, Tensorflow, Keras
 \item Contribution to Tensorflow, Keras, and mmdetection on Github
 
 \end{itemize} \ \\ \end{document}

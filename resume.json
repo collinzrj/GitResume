@@ -3,16 +3,13 @@
         "name": "Collin Zhang",
         "contacts": [
             "rz1477@nyu.edu",
-            "+86 13395122259"
+            "(917) 621-1855"
         ]
     },
     "education": [{
         "school": "New York University", 
         "major": "B.S. Computer Science; B.S., Business", 
         "duration": "Sep 2019 - Jun 2023, New York"
-    }, {
-        "school": "Nanjing Foreign Language School", 
-        "duration": "Sep 2016 - Jun 2019, Nanjing"
     }],
     "sections": [
         {
@@ -23,9 +20,11 @@
                     "description": "Team Leader (Oct 2019 - June 2021)",
                     "bullets": [
                         "An iOS app integrating real-time collaboration with hand-writing drawing board based on Apple Pencil", 
-                        "Design of data structure and search algorithm to realize high performance write, read, search, and update (includes pen, eraser and lasso) function, and algorithm to improve performance of Apple Pencil writing", 
-                        "Technology stack: Swift, SQLite, MVC Architecture, Socket.IO, Flask, Gunicorn, Nginx", 
-                        "Using Github and Lark to set goals and collaborate with team members", 
+                        "Use of Flask and Socket.IO with python to build a backend that supports real-time collaboration of drawing",
+                        "On the frontend, design an algorithm with Swift that converts the points produced by users(location and force) to segments of bezier curve that produce a smooth hand-writing curve", 
+                        "To achieve lasso on a drawing of thousands of curves, design a map that divides the drawing to 10*10 sqaures, indexing segments of curves to each sqaure, create an algorithm that determines squares covered by an arbitrary self-intersecting polygon, and an algorithm using ray casting algorithm to determine whether a segment is in it, achieve 100 times speed up",
+                        "Abstracing a drawing module FastDraw for modularity, providing a DrawBoardView for drawing, delegation is used to signal operation like drawing, erasing and lasso, so operation can be sent to server for collaboration", 
+                        "9.59k downloads on App Store, 9400+ boards created by users", 
                         "https://apps.apple.com/tt/app/cocreate-draw-together/id1548911886?ign-mpt=uo%3D2"
                     ]
                 },
@@ -37,17 +36,6 @@
                         "Preprocess data with pandas, visualize the radiographs with matplotlib and pydicom, performing EDA",
                         "Train a Cascade R-CNN for bounding box regression with mmdetection",
                         "Train a EfficientNet for classification with keras"
-                    ]
-                }, 
-                {
-                    "title": "ItemMemo",
-                    "description": "Developer (Sep 2020 - Oct 2020)",
-                    "bullets": [
-                        "An iOS app that helps users stop losing things",
-                        "Technology stack: WidgetKit, WatchKit and SwiftUI",
-                        "Application of Growth Hacking: cooperate with KOLs on Social Media to achieve fast growth of downloads; campaigns on Facebook Ads to attract users from United States",
-                        "Got a downloads of 11k around the world",
-                        "https://apps.apple.com/cn/app/id1531614603"
                     ]
                 }
             ]
@@ -72,8 +60,8 @@
             "items": [
                 {
                     "bullets": [
-                        "Bilingual in Chinese and English",
-                        "Programming languages: Swift, Python, Java, C++, Javascript, SQL, HTML/CSS",
+                        "Courses: Data Structures, Computer System Organization, Intro to Algorithms, Discrete Math", 
+                        "Swift, Python, Java, C++, Javascript, SQL, HTML/CSS, Tensorflow, Keras",
                         "Contribution to Tensorflow, Keras, and mmdetection on Github"
                     ]
                 }
