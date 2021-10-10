@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+#  .git/hooks/pre-commit
+#
+
+python3 engine.py 
+git add resume.pdf
+git add resume.tex
