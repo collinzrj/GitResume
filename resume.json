@@ -24,7 +24,7 @@
                         "On the frontend, design an algorithm with \\textbf{Swift} that converts \\textbf{CGPoint} with location and force produced by users to segments of \\textbf{UIBezierCurve} that produce a smooth hand-writing curve", 
                         "To achieve lasso on a drawing of thousands of curves, design a map that divides the drawing to 10*10 sqaures, \\textbf{indexing} segments of curves to each sqaure, create an algorithm that determines squares covered by an arbitrary self-intersecting polygon, an algorithm using \\textbf{ray casting} algorithm to determine whether a segment is in it, achieve 100 times speed up",
                         "Abstracing a drawing module \\textbf{FastDraw} for modularity, providing a DrawBoardView for drawing, delegation is used to signal operation like drawing, erasing and lasso, so operation can be sent to server for collaboration", 
-                        "9.59k downloads on App Store, 9400+ boards created by users", 
+                        "10k downloads on App Store, 10k+ boards created by users", 
                         "https://apps.apple.com/tt/app/cocreate-draw-together/id1548911886?ign-mpt=uo%3D2"
                     ]
                 },
